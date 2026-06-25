@@ -1,4 +1,3 @@
-
 # 🐼 Pandas Crash Course: From Zero to Data Hero
 
 An ultra-efficient, no-nonsense guide to mastering **Pandas** for Data Science and Machine Learning. If you are tired of staring at unoptimized `for` loops and want to manipulate millions of rows with elegant, vectorized code, you are in the right place.
@@ -74,32 +73,35 @@ The course is broken down into digestible, high-impact modules:
 
 This repository is optimized to use **`uv`**, the lightning-fast Python package and environment manager. Get your environment up and running in less than a second.
 
-```bash
+---
 
 # 1. Clone the repository
 
-gitclone [https://github.com/zainulabedeen589/Pandas-Crash-Course.git](https://github.com/zainulabedeen589/Pandas-Crash-Course.git)
+- git clone [https://github.com/zainulabedeen589/Pandas-Crash-Course.git](https://github.com/zainulabedeen589/Pandas-Crash-Course.git)
+- cd Pandas-Crash-Course
 
-cdPandas-Crash-Course
+---
 
+## 2. Create a virtual environment using uv
 
-# 2. Create a virtual environment using uv
+- uv venv
 
-uvvenv
+---
 
+## 3. Activate the environment
 
-# 3. Activate the environment
+### On macOS/Linux:
 
-# On macOS/Linux:
+- source .venv/bin/activate
 
-source.venv/bin/activate
+### On Windows:
 
-# On Windows:
+- .venv\Scripts\activate
 
-.venv\Scripts\activate
+---
 
+## 4. Install Pandas and core dependencies instantly
 
-# 4. Install Pandas and core dependencies instantly
+- uv pip install pandas jupyter notebook plotly pandas-stubs
 
-uvpipinstallpandasjupyternotebookplotlypandas-stubs
-```
+---
